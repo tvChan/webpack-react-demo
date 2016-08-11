@@ -29,11 +29,11 @@ export default class Plist extends React.Component {
 		const imgStyle = {
 			width: '50px'
 		}
-		// 天假一些if else 的判断，用来展示不同的内容
+		// 添加一些if else 的判断，用来展示不同的内容
 		if (this.state.firstView) {
 			return (
 				<h2>Enter name to Search</h2>
-			);
+			)
 		}
 		if (this.state.loading) {
 			return (

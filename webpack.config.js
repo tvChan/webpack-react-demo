@@ -25,7 +25,7 @@ module.exports = {
 	module: {
 		loaders: [
 			{
-				test: /\.jsx$/,
+				test: /\.jsx?$/,
 				loader: 'babel',
 				include: APP_PATH,
 				query: {
